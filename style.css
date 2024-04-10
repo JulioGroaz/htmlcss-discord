@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Cabin;
 }
 
 header{
     color: white;
-    padding: 2rem;
     display: flex;
     background-image: url(./img/jumbo.png);
     background-size: cover;
@@ -26,6 +26,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 1.5rem 2rem 0rem 2rem;
    
   
 
@@ -34,18 +35,53 @@ ul{
     display: flex;
     list-style: none;
     flex-direction: row;
+    align-items: center;
 
     
 }
 li{
     margin-right: 2em;
 }
+
+.litle-button{
+    padding: .5rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 1rem;
+    width: 4.5rem;
+
+
+}
 .scritta-centrata{
     display: flex;
     flex-direction: column; 
     align-items: center;
-    padding: 10em;
-    width: 70%;
+    padding: 7em 12em 11em 12em;
+    width: 79%;
+    height: 33rem;
+}
+h1{
+    font-size: 3rem;
+    padding-bottom: 2rem ;
+}
+
+p{
+    font-size: 1.35rem;
+    padding-bottom: 1rem ;
+    line-height: 2rem ;
+    text-align: center;
+
+}
+.big-bottons{
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 1.35rem;
+    padding: 0.75rem;
+    margin-right: 1rem;
+}
+#blue-button{
+    background-color: #23272a;
+    color: white;
 }
 
 .img-left{
